@@ -77,6 +77,11 @@ const config: Config = {
           label: 'Website',
           position: 'left'
         },
+        /*
+        {
+          type: 'docsVersionDropdown',
+          position: 'right'
+        },*/
         {
           href: 'https://github.com/mmssolutionsio/mms-reporting-library',
           label: 'GitHub',
@@ -87,15 +92,6 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Lets get started!',
-              to: '/docs/intro',
-            },
-          ],
-        },
         {
           title: 'More',
           items: [

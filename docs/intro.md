@@ -4,8 +4,6 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-ns.wow setup **in less than 5 minutes**.
-
 ### Benötigt
 
 - [Node.js](https://nodejs.org/en/download/) version 18.0 oder höher
@@ -13,29 +11,19 @@ ns.wow setup **in less than 5 minutes**.
 
 ## Ein neues Projekt starten
 
+Die klassische Vorlage wird automatisch zu deinem Projekt hinzugefügt, nachdem du den Befehl ausgeführt hast:
 
-
-The classic template will automatically be added to your project after you run the command:
 
 ```bash
-npm init docusaurus@latest my-website classic
+npx @multivisio/nswow init <project-folder>
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+Du kannst diesen Befehl in die Eingabeaufforderung, Powershell, Terminal oder ein anderes integriertes Terminal deines Code-Editors eingeben.
 
-The command also installs all necessary dependencies you need to run Docusaurus.
+Um die notwendigen Abhängigkeiten zu installieren, die du für die Ausführung und Entwicklung deines ns.wow Projektes benötigst, navigiere zunächst in den neu erstellten Projektordner.
+Anschließend führe den entsprechenden Befehl in deinem Terminal oder deiner Kommandozeile aus:
 
-## Start your site
-
-Run the development server:
 
 ```bash
-cd my-website
-npm run start
+npx install
 ```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
