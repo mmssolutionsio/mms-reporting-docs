@@ -11,7 +11,7 @@ sidebar_position: 1
 
 ## Ein neues Projekt starten
 
-Die klassische Vorlage wird automatisch zu deinem Projekt hinzugefügt, nachdem du den Befehl ausgeführt hast:
+Die klassische Vorlage wird automatisch zu deinem Projekt hinzugefügt, nachdem du folgenden Befehl ausgeführt hast:
 
 
 ```bash
