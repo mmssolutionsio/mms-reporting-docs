@@ -1,0 +1,8 @@
+{
+  "label": "Frontend Toolkit",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "ns.wow bringt ein eigenes Frontend Framework mit sich um unterschiedliche Ausgaben zu gestalten"
+  }
+}

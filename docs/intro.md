@@ -4,12 +4,12 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-### Benötigt
+## Benötigt
 
 - [Node.js](https://nodejs.org/en/download/) version 18.0 oder höher
 - Lokale Entwicklungsumgebung
 
-## Ein neues Projekt starten
+## 1. Ein neues Projekt starten
 
 Die klassische Vorlage wird automatisch zu deinem Projekt hinzugefügt, nachdem du den Befehl ausgeführt hast:
 
@@ -27,3 +27,7 @@ Anschließend führe den entsprechenden Befehl in deinem Terminal oder deiner Ko
 ```bash
 npx install
 ```
+
+## 2. Projekt Konfigurieren
+
+Für die Konfiguration des Frontend Toolkits geht es hier weiter: [Frontend Toolkit Konfiguration.](./beaver/beaver-config)

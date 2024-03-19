@@ -11,8 +11,8 @@ const config: Config = {
   url: 'https://multivisio.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/mms-reporting-docs/',
-  //baseUrl: '/',
+  //baseUrl: '/mms-reporting-docs/',
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
@@ -42,13 +42,14 @@ const config: Config = {
           editUrl:
             'https://github.com/multivisio/mms-reporting-docs/tree/main/',
         },
+        /*
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        },*/
         theme: {
           customCss: './src/css/custom.css',
         },
