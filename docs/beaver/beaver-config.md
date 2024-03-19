@@ -1,5 +1,5 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
 # Konfiguration
@@ -8,7 +8,7 @@ Im Hauptverzeichnis befindet sich die **nswow.config.json**. Hier können Schrif
 Änderungen in der Konfiguration müssen via folgendem Befehl aktualisiert werden:
 
 ```bash
-npx @multivisio/nswow beaver
+npx nswow beaver
 ```
 
 ## Schriften
@@ -48,7 +48,7 @@ kleinsten Breakpoint und werden für größere Breakpoints überschrieben:
             "font-size": 28
         }
     }
-},
+}, (...)
 ```
 
 ## Farben
@@ -62,8 +62,64 @@ Farben können frei definiert werden.
     "color": "rgba(181, 0, 0, 1)"
 },
 {
+    "name": "meinefarbe",
+    "description": "",
+    "color": "rgba(181, 0, 0, 1)"
+},
+{
     "name": "copy",
     "description": "",
     "color": "rgba(60, 60, 60, 1)"
-},
+}, (...)
+```
+
+## Grid System
+
+Im Standard besteht das Grid-System aus 4 Breakpoints: phone, portrait, landscape und desktop.
+
+```
+"grid": {
+    "containers": {
+        "phone": {
+            "padding": 15
+        },
+        "portrait": {
+            "padding": 20
+        },
+        "landscape": {
+            "padding": 20
+        },
+        "desktop": {
+            "padding": 20,
+            "max-width": 1600
+        }
+    },
+    "breakpoints": {
+        "phone": 0,
+        "portrait": 768,
+        "landscape": 1024,
+        "desktop": 1280
+    },
+    "gutter": {
+        "phone": {
+            "columns": 12,
+            "row-gap": 10,
+            "column-gap": 10
+        },
+        "portrait": {
+            "columns": 12,
+            "row-gap": 15,
+            "column-gap": 15
+        },
+        "landscape": {
+            "columns": 12,
+            "gap": 20 //gap anstatt explizite row / column Definition möglich
+        },
+        "desktop": {
+            "columns": 12,
+            "row-gap": 20,
+            "column-gap": 20
+        }
+    }
+}, (...)
 ```

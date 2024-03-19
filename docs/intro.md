@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Quick Start Guide
 
 ## Benötigt
 
@@ -25,7 +25,7 @@ Anschließend führe den entsprechenden Befehl in deinem Terminal oder deiner Ko
 
 
 ```bash
-npx install
+npm install
 ```
 
 ## 2. Projekt Konfigurieren
