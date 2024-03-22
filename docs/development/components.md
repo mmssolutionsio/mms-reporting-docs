@@ -44,3 +44,23 @@ livingdocs
   ├── ... # Komponente
 ├── ...
 ```
+
+## Eigene Komponenten
+
+Projektspezifische Komponenten können entweder in vorhandene Ordner, oder neue Gruppen kategorisiert werden.
+
+### Ordner
+
+Eigene Ordner können mit folgendem Befehl erstellt werden:
+
+```bash
+npx nswow create group my-group
+```
+
+### Komponenten
+
+Eigene Komponenten können via folgendem Befehl erstellt werden.
+
+```bash
+npx nswow create component my-component
+```
