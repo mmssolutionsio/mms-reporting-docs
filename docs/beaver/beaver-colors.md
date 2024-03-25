@@ -8,6 +8,8 @@ Die Farben der [Grundkonfiguration](./beaver-config) können über SCSS Mixins a
 
 ### Mixins
 
+Durch die Nutzung von **@use** sind umfassende Code-Vervollständigungen verfügbar.
+
 ```scss title="style.scss"
 @use "nswow";
 

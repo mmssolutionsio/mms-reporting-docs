@@ -10,20 +10,20 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Development Documentation',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'mms ns.wow',
+    Svg: require('@site/static/img/achievement-svgrepo-com.svg').default,
     description: (
       <>
-        Alles was du brauchst um ein Projekt neu zu starten und zum laufen zu bekommen.
+          Die Headless-CMS-basierte Plattform für «Full-HTML-Reporting».
       </>
     ),
   },
   {
-    title: 'User Guide',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'mms tagging plus',
+    Svg: require('@site/static/img/performance-inquiry-svgrepo-com.svg').default,
     description: (
       <>
-        Alle Informationen rund um das ns.wow Reporting System.
+          <a href={"https://manuals.mmssolutions.io/"} target={"_blank"}>https://manuals.mmssolutions.io/</a>
       </>
     ),
   }

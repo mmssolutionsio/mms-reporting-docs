@@ -8,6 +8,8 @@ Die Schriften der [Grundkonfiguration](./beaver-config) können über SCSS Mixin
 
 ### Mixins
 
+Durch die Nutzung von **@use** sind umfassende Code-Vervollständigungen verfügbar.
+
 ```scss title="style.scss"
 @use "nswow";
 
