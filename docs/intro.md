@@ -31,8 +31,7 @@ npm install
 ## 2. Projekt Konfigurieren
 
 Für die Konfiguration des Frontend Toolkits geht es hier
-weiter: [Frontend Toolkit Konfiguration.](./beaver/beaver-config) Dieses umfasst das allgemeine Raster, Farben und
-Schriften.
+weiter: [Frontend Toolkit Konfiguration.](./beaver/beaver-config) Hier kannst du das Raster, Schriften und Projektspezifikationen für die Ausgabe vornehmen.
 
 ## 3. Komponenten installieren
 
@@ -43,7 +42,7 @@ Wie du das ns.wow Standardset oder auch eigene Komponenten installieren kannst f
 
 ## 4. Deployment / Buildprozess
 
-Wenn das Projekt fertig ist, wird es via Build - Prozess in den .output Ordner geschrieben und kann über das ns.wow Backend hochgeladen werden:
+Sobald das Projekt fertig ist, wird es via Build - Prozess in den .output Ordner geschrieben und über das ns.hosting hochgeladen.
 
 ```bash
 npm run build

@@ -4,9 +4,10 @@ sidebar_position: 2
 
 # Komponenten
 
-Komponenten sind im ns.wow als Elemente definiert, die einerseits in das
-ns.wow-Backendsystem übertragen und dort redaktionell bearbeitet und befüllt werden können. Andererseits dienen diese
-Komponenten als einzelne Bausteine für die spätere Frontend-Applikation als auch Ausgabe im PDF und sonstigen Dokumenten.
+Innerhalb des ns.wow-Systems werden Komponenten als zentrale Elemente betrachtet, die eine **doppelte Funktion** erfüllen.
+Zum einen können sie in das ns.wow-Backend-System integriert werden, wo sie redaktionell bearbeitet und mit Inhalten
+versehen werden. Zum anderen dienen diese Komponenten als modulare Bausteine für die Frontend-Applikation sowie für die
+Ausgabe in PDF-Formaten und anderen Dokumententypen.
 
 ***ns.wow stellt ein Basisset an Standardkomponenten bereit.***
 

@@ -4,7 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'ns.wow Dokumentation',
-  tagline: 'Get set up in minutes to build and run any projects in hours instead of weeks.',
+  tagline: 'Komponenten, LivingDocs, Frontend-Applikation, PDFReactor',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
