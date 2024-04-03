@@ -8,7 +8,7 @@ const config: Config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://multivisio.github.io',
+  url: 'https://mmssolutionsio.github.io',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/mms-reporting-docs/',
@@ -16,7 +16,7 @@ const config: Config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'multivisio', // Usually your GitHub org/user name.
+  organizationName: 'mmssolutionsio', // Usually your GitHub org/user name.
   projectName: 'mms-reporting-docs', // Usually your repo name.
   deploymentBranch: 'gh-pages',
 
@@ -40,7 +40,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/multivisio/mms-reporting-docs/tree/main/',
+            'https://github.com/mmssolutionsio/mms-reporting-docs/tree/main/',
         },
         /*
         blog: {
