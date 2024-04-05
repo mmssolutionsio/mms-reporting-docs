@@ -24,11 +24,16 @@ Neue Komponenten für das ns.wow Backend als auch der Frontend Applikation werde
 
 ## .output
 
-Hier liegen die Dateien, welche nach dem build - Prozess in das ns.wow Hosting geladen werden.
+Hier liegen die Dateien, welche nach dem build - Prozess in das ns.wow Hosting geladen werden. Diese können mit folgendem Befehl erzeugt werden:
+
 
 ## livingdocs
 
 Hier befinden sich alle Komponenten die für das ns.wow Backend und später in der Frontend Applikation verwendet werden.
+
+```bash
+npm run build
+```
 
 ## nswow
 
