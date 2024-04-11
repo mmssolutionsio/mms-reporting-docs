@@ -15,7 +15,7 @@ Diese können beliebig verwendet und geändert als auch mit projektspezifischen 
 
 ## Installation von neuen ns.wow Komponenten
 
-Gruppen von Komponenten können mit folgendem Kommando installiert werden:
+Gruppen von Komponenten können mit folgendem Kommando installiert werden. Die Auswahl der gewünschten Gruppen und Komponenten kann mit Leertaste bestätigt werden.
 
 ```bash
 npx nswow add group

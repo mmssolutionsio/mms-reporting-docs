@@ -1,0 +1,8 @@
+{
+  "label": "Deployment",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "Sobald die lokale Entwicklung abgeschlossen ist, können die Komponenten, Styles und auch Applikation in ns.wow geladen werden"
+  }
+}
