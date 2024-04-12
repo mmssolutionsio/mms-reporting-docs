@@ -18,7 +18,7 @@ Diese können beliebig verwendet und geändert als auch mit projektspezifischen 
 Gruppen von Komponenten können mit folgendem Kommando installiert werden. Die Auswahl der gewünschten Gruppen und Komponenten kann mit Leertaste bestätigt werden.
 
 ```bash
-npx nswow add group
+npx nswow add groups
 ```
 
 Einzelne von ns.wow bereitgestellte Komponenten können wie folgt installiert werden:
