@@ -65,3 +65,11 @@ Eigene Komponenten können via folgendem Befehl erstellt werden.
 ```bash
 npx nswow create component my-component
 ```
+
+### Komponenten entfernen
+
+Du kannst Komponenten und Gruppen entweder per Hand löschen oder die Befehlszeile (cli) nutzen. Hier ist ein Beispiel, wie du Gruppen über die Befehlszeile löschen kannst:
+
+```bash
+npx nswow remove groups
+```
