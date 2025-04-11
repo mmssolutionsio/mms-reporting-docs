@@ -4,51 +4,57 @@ sidebar_position: 1
 
 # Quick Start Guide
 
-## Benötigt
+## requirements
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 oder höher
-- Lokale Entwicklungsumgebung
+- [Node.js](https://nodejs.org/en/download/) version 18.0 or higher
+- local development machine
+  - Windows: [wsl](https://learn.microsoft.com/en-us/windows/wsl/install) due to generated paths with seperator mismatches
+  - macos: -
 
-## 1. Erstellen eines neuen Projekts
+## Start
 
-Die klassische Vorlage wird automatisch deinem Projekt hinzugefügt, nachdem du folgenden Befehl ausgeführt hast:
+### Create a project
+
+Generates the whole [srl project strucure](./development/structure)
 
 ```bash
 npx @multivisio/nswow init <project-folder>
 ```
 
-Diesen Befehl kannst du in die Eingabeaufforderung, Powershell, Terminal oder ein anders integriertes Terminal deines Code-Editors eingeben. Um die notwendigen Abhängigkeiten für die Ausführung und Entwicklung deines ns.wow Projektes zu installieren, navigiere zunächst in den neu erstellten Projektordner und führe den entsprechenden Befehl in deinem Terminal oder deiner Kommandozeile aus:
+### Getting ready for development
+
 ```bash
 cd <project-folder>
 npm install
 ```
 
-## 2. Projekt konfigurieren
+### Add components
 
-Informationen zur Konfiguration des Frontend Toolkits findest du unter [Frontend Toolkit Konfiguration.](./beaver/beaver-config) Dort kannst du Einstellungen für das Raster, Schriften und projektspezifische Ausgabespezifikationen vornehmen.
-
-## 3. Installieren und Entwickeln von Komponenten
-
-Komponenten werden in das ns.wow Backend geladen und können dort gepflegt werden. Später werden diese mit den entsprechenden Inhalten in der Frontend-Applikation dargestellt. Informationen zur Installation des ns.wow Standardsets oder eigener Komponenten findest du unter [Komponenten.](./development/components).
-
-## 4. Entwicklung der Webseite
-
-Die Applikation für die Webseite befindet sich im **./src** Ordner. Lokal kann diese wir folgt aufgerufen werden:
+currently the `livingdocs` folder is empty and should not contain any Livingdocs components.
 
 ```bash
-npm rund dev
+npx nswow add groups
 ```
 
-Weitere Informationen zur Programmierung einer VUEJS-Applikation findest du hier: https://vuejs.org/
+Use the [nswow cli](./development/cli#nswow) to add predefined components to quickly build and design your first articles in ns.wow.
 
-## 5. Deployment
+### Build
 
-Sobald das Projekt fertig ist, wird es durch den Build-Prozess in den .output Ordner geschrieben und über das ns.wow Hosting hochgeladen. Hier findest du mehr Details über das [Deployment.](./category/deployment)
+more information to the [deployment/build process](./deployment/build)
 
-## 6. Pflegen von Inhalten im ns.wow
+```bash
+npm run build
+```
 
-Nach dem Hochladen der neuen Ressourcen kann der Redakteur diese im ns.wow verwenden und Inhalte pflegen. Im ns.wow Hosting können die Artikel an verschiedene Menüs für die Webseite angeordnet werden.
+## development
 
-## 7. Exportieren der finalen Ressourcen aus ns.wow Hosting
+```bash
+npm run dev
+```
 
-Im ns.wow Hosting können die finalen Ressourcen für die Bereitstellung auf dem Server heruntergeladen werden. Zunächst muss das Bundle über die Option **"Create a new Publication Export"** erstellt werden.
+### resources
+- [Vue3](https://vuejs.org/)
+- [cli](./development/cli#nswow)
+- [structure](./development/structure.md)
+- [Livingdocs component](./development/structure.md)
+- [configure design variables](./development/)

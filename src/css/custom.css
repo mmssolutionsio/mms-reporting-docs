@@ -86,3 +86,7 @@
   --ifm-heading-font-family: 'Roboto';
   --ifm-font-family-monospace: 'Roboto';
 }
+
+code {
+  font-family: 'Nimbus Mono PS', 'Consolas', monospace !important;
+}

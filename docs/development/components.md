@@ -2,14 +2,14 @@
 sidebar_position: 2
 ---
 
-# Komponenten
+# Components
 
 Innerhalb des ns.wow-Systems werden Komponenten als zentrale Elemente betrachtet, die eine **doppelte Funktion** erfüllen.
 Zum einen können sie in das ns.wow-Backend-System integriert werden, wo sie redaktionell bearbeitet und mit Inhalten
 versehen werden. Zum anderen dienen diese Komponenten als modulare Bausteine für die Frontend-Applikation sowie für die
 Ausgabe in PDF-Formaten und anderen Dokumententypen.
 
-***ns.wow stellt ein Basisset an Standardkomponenten bereit.***
+**_ns.wow stellt ein Basisset an Standardkomponenten bereit._**
 
 Diese können beliebig verwendet und geändert als auch mit projektspezifischen Komponenten erweitert werden.
 
@@ -27,24 +27,34 @@ Einzelne von ns.wow bereitgestellte Komponenten können wie folgt installiert we
 npx nswow add components
 ```
 
-## Struktur
+## Structure
 
-Jede Komponente befindet sich in einer Gruppe von gleichartigen Komponenten.
+- `Group`
+  - Named 
+- 
 
 ```bash
 livingdocs
-├── Buttons # Gruppe
-  ├── button # Komponente
-    ├── app.scss        // Wird nur in der Frontend Applikation geladen
-    ├── button.html     // Darstellung in allen Ausgaben
-    ├── general.scss    // Wird in allen Kanälen geladen
-    ├── properties.json // Konfiguration ns.wow Backend
-    ├── idd.scss        // Wird nur im ns.wow geladen
-    ├── pdf.scss        // Wird für die .pdf Ausgabe verwendet
-    └── word.scss       // Wird für die .docx Ausgabe verwendet
-  ├── ... # Komponente
+├── Misc # group - which includes components of the same type (Titles, Text, Lists, Media, PDF only)
+  ├── accordion # component
+    ├── app.scss        # only visible in the web application
+    ├── accordion.html  # HTML template and editor component declaration
+    ├── app.ts          # component JS for web application js.
+    ├── general.scss    # used in all stylesheets, base style of an component (color, typography, grid)
+    ├── properties.json # Livingdocs component properties
+    ├── ldd.scss        # only used in ns.wow editor
+    ├── pdf.scss        # only used in pdf styling
+    └── word.scss       # only used in word styling
+  ├── ... # component
 ├── ...
 ```
+
+| file            | desc                                                                                                                                                                                                                                                                                                           |
+| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| component.html  | HTML template und Json Konfiguration für Livingdocs design                                                                                                                                                                                                                                                     |
+| app.ts/js       | JS Module für Web JS hooks. Beispiel Accordion Interaktion                                                                                                                                                                                                                                                     |
+| general.scss    | Basis der css Styles einer Komponente (Typograpy, Colors)                                                                                                                                                                                                                                                      |
+| properties.json | Deklaration der Livingdocs [componentProperties](https://docs.livingdocs.io/reference/document/content/component-model/#componentproperties). Property Key muss unique sein. [Beispiel graphic](https://github.com/mmssolutionsio/simple-reporting-library/blob/main/livingdocs/Media/graphic/properties.json) |
 
 ## Eigene Komponenten
 
