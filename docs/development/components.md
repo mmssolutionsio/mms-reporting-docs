@@ -29,10 +29,6 @@ npx nswow add components
 
 ## Structure
 
-- `Group`
-  - Named 
-- 
-
 ```bash
 livingdocs
 ├── Misc # group - which includes components of the same type (Titles, Text, Lists, Media, PDF only)
@@ -52,7 +48,7 @@ livingdocs
 | file            | desc                                                                                                                                                                                                                                                                                                           |
 | --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | component.html  | HTML template und Json Konfiguration für Livingdocs design                                                                                                                                                                                                                                                     |
-| app.ts/js       | JS Module für Web JS hooks. Beispiel Accordion Interaktion                                                                                                                                                                                                                                                     |
+| app.ts/js       | JS Module für Web JS hooks. [Beispiel Accordion Interaktion](https://github.com/mmssolutionsio/simple-reporting-library/blob/main/livingdocs/Misc/accordion/app.ts)                                                                                                                                                                                                                |
 | general.scss    | Basis der css Styles einer Komponente (Typograpy, Colors)                                                                                                                                                                                                                                                      |
 | properties.json | Deklaration der Livingdocs [componentProperties](https://docs.livingdocs.io/reference/document/content/component-model/#componentproperties). Property Key muss unique sein. [Beispiel graphic](https://github.com/mmssolutionsio/simple-reporting-library/blob/main/livingdocs/Media/graphic/properties.json) |
 

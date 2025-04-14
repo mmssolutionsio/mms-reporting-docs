@@ -36,7 +36,7 @@ Usually consits of the following scss files:
 
 ## .output
 
-Vite generated output: includes `web application`, `Livingdocs design`, `pdf.css`, `word.css`
+Vite generated output: includes `Web application`, `Livingdocs design`, `pdf.css`, `word.css`
 
 ```bash
 npm run build
@@ -54,7 +54,7 @@ Das ns.wow [Frontend Toolkit.](./../beaver/beaver-config)
 
 ## src
 
-Vue3 Application. Used for the Web Application of the final product.
+Vue3 Application. Used for the Web application of the final product.
 
 ## livingdocs.config.json
 

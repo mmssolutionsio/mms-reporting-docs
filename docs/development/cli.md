@@ -43,12 +43,12 @@ npx nswow remove [type]
 | `components` | gives a selectable list of aviable Livingdocs components. Deletes selected components   |
 | `groups`     | gives a selectable list of aviable Groups. Deletes selected Groups and their components |
 
-## `add`
+## `create`
 
 ### Usage
 
 ```bash
-npx nswow add [type]
+npx nswow create [type]
 ```
 
 ### Options
