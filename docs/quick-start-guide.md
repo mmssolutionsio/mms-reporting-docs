@@ -46,13 +46,13 @@ more information to the [deployment/build process](./deployment/build)
 npm run build
 ```
 
-## Development
+### Development
 
 ```bash
 npm run dev
 ```
 
-### resources
+## Resources
 - [CLI](./development/cli#nswow)
 - [Project structure](./development/structure.md)
 - [CSS - Framework](./beaver/beaver-config)

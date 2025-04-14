@@ -40,10 +40,9 @@ PDF / Word pulls the the newest revision of an article and uses it during the bu
 
 The `Single Source of Truth` for content. A Customer or an assigned Project Leader (PL) works in the editor and fills content, or changes display properties for the output. 
 
-ns.wow is not WYSIWYG for multiple reasons:
+ns.wow Editor is not WYSIWYG for multiple reasons:
 - there are multiple target Medias which are generated from the same content
 - theres no way to make a WYSIWYG Editor for PDF content without writing a custom implementation and a custom PDF rendering implementation.
-- Endusers often don't know that the OS monitor zoom on their laptop changes the scaling a lot, and content might suddenly look different when viewed on their colleagues screen. 
 
 
 `A Developer` sets up a Livingdocs design and Styles for the editor components for the enduser. Creates new components or adds properties to allow the enduser better workflow / control over the product.
@@ -52,7 +51,7 @@ Someone from `Finances` or enduser uses Finance Plus to upload tables and table 
 
 ## ns.wow (Hosting)
 
-The hosting serves a preview of the Web app, exporting a [report package](./nswow-hosting/export-structure.md) and allows additional configuration of menus and download artifacts.
+The hosting serves a preview of the Web app, exporting a [report package](./nswow-hosting/export-structure) and allows additional configuration of menus and download artifacts.
 
 The data of a report package can be used to locally develop and preview the web app without always having to deploy a new version.
 
