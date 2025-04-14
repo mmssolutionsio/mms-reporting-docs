@@ -31,5 +31,5 @@ Durch die Nutzung von **@use** sind umfassende Code-Vervollständigungen verfüg
 Parallel stehen Farben und Hintergrundfarben als Inline - Klassendefinitionen zur Verfügung:
 
 ```html title="komponente.html"
-<div class="nswow-bg-primary nswow-color-meinefarbe"></div>
+<div class="srl-bg-primary srl-color-meinefarbe"></div>
 ```

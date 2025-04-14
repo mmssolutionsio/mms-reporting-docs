@@ -2,12 +2,12 @@
 sidebar_position: 1
 ---
 
-# Projektstruktur
+# Project structure
 
-Hier findest du eine Übersicht der wichtigsten Einstiegspunkte.
+Project root overview:
 
 ```bash
-my-nswow-project
+[project]
 ├── .nswow
 ├── .output
 ├── livingdocs
@@ -19,12 +19,24 @@ my-nswow-project
 
 ## .nswow
 
-Hier befinden sich die SCSS Dateien welche für die verschiedenen Ausgabemedien (Web, Print ...) verschiedene Komponenten als auch das Frontend Toolkit importiert.
-Neue Komponenten für das ns.wow Backend als auch der Frontend Applikation werden hier bei der Installation über die Bash hinzugefügt.
+Location of multiple generated `scss` files with component mappings. These files are re-rendered when adding or removing components in `/livingdocs/**`.
+
+Usually consits of the following scss files:
+
+```bash
+.nswow
+├── app.scss # web livingdocs component styles
+├── general.scss # base livingdocs component style
+├── ldd.scss # editor only livingdocs component style
+├── pdf.scss # pdf css styles
+├── print.scss # pdf css styles
+├── web.scss # web livingdocs component styles
+├── word.scss # word livingdocs component styles
+```
 
 ## .output
 
-Hier liegen die Dateien, welche nach dem build - Prozess in das ns.wow Hosting geladen werden. Diese können mit folgendem Befehl erzeugt werden:
+Vite generated output: includes `Web application`, `Livingdocs design`, `pdf.css`, `word.css`
 
 ```bash
 npm run build
@@ -32,7 +44,9 @@ npm run build
 
 ## livingdocs
 
-Hier befinden sich alle Komponenten die für das ns.wow Backend und später in der Frontend Applikation verwendet werden.
+Structure for Livingdocs design - styles, component definitions and component TypeScript / JS
+
+- [Component structure](./components.md#structure)
 
 ## nswow
 
@@ -40,12 +54,14 @@ Das ns.wow [Frontend Toolkit.](./../beaver/beaver-config)
 
 ## src
 
-Die eigentliche VUE Frontendapplikation welche das finale Produkt abbildet.
+Vue3 Application. Used for the Web application of the final product.
 
 ## livingdocs.config.json
 
-Die Konfiguration für das Living Docs Backend der ns.wow Applikation.
+Base configuration for the [Livingdocs design](https://docs.livingdocs.io/reference/document/document-design/#design-settings).
 
 ## nswow.config.json
 
-Über diese Konfiguration lassen sich Farben, Grid, Typografie etc. konfigurieren s. [Frontend Toolkit.](./../beaver/beaver-config)
+Design variable configuration which generates colors, typography, grid and more. [Frontend Toolkit.](./../beaver/beaver-config)
+
+> citation needed for "more"
