@@ -52,7 +52,7 @@ Someone from `Finances` or enduser uses Finance Plus to upload tables and table 
 
 ## ns.wow (Hosting)
 
-The hosting serves a preview of the Web app, exporting a [report package](./data-structure/export-structure.md) and allows additional configuration of menus and download artifacts.
+The hosting serves a preview of the Web app, exporting a [report package](./nswow-hosting/export-structure.md) and allows additional configuration of menus and download artifacts.
 
 The data of a report package can be used to locally develop and preview the web app without always having to deploy a new version.
 
@@ -94,5 +94,5 @@ publication
 
 ## Resources
 
-- [Hosting Export structure](./data-structure/export-structure.md) for more indepth information about exported files
-- [CSS - Framework](./../beaver/beaver-config) 
+- [Hosting Export structure](./nswow-hosting/export-structure) for more indepth information about exported files
+- [CSS - Framework](./beaver/beaver-config) 

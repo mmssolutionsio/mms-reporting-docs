@@ -53,9 +53,8 @@ npm run dev
 ```
 
 ### resources
+- [CLI](./development/cli#nswow)
+- [Project structure](./development/structure.md)
+- [CSS - Framework](./beaver/beaver-config)
+- [Component structure](./development/components#structure)
 - [Vue3](https://vuejs.org/)
-- [cli](./development/cli#nswow)
-- [structure](./development/structure.md)
-- [Livingdocs component](./development/structure.md)
-- [configure design variables](./development/)
-- [Intro](./intro)
